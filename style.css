@@ -1,0 +1,19 @@
+body{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+#container{
+  width: 960px;
+  height: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid #000FF0;
+  margin-top: 20px;
+}
+.square{
+  border: 1px solid orange;
+  box-sizing: border-box;
+}
